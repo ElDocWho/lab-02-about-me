@@ -16,18 +16,26 @@ else {
   alert('Working is good for you, you should probably try it');
 }
 console.log('Do you like working? ' + work);
-var drink = prompt('Do you like beer?');
+var drink = prompt('Do you like beer? ');
 if (drink.trim().toLowerCase() == 'yes' || drink.trim().toLowerCase() == 'y') {
-  alert('I also like beer, specially crafter beer');
+  alert('I also like beer, specially crafted beer');
 }
 else {
   alert('Beer is good for the soul, lets have a beer some day.');
 }console.log('Do you like beer?' + drink);
 var color = prompt('Do you like the black color? ');
-if (color.trim().toLowerCase() == 'yes') {
+if (color.trim().toLowerCase() == 'yes' || color.trim().toLowerCase() == 'y') {
   alert('Nice, it is an awesome color');
 }
 else {
   alert('I guess color black is not for everybody');
 }
 console.log('Do you like the black color? ' + color);
+var pizza = prompt('Do you like pizza? ');
+if (pizza.trim().toLowerCase() == 'yes' || pizza.trim().toLowerCase() == 'y') {
+  alert('Yeah!!! pizza is good');
+}
+else {
+  alert('Afraid of gaining weight?');
+}
+console.log('Do you like pizza? ' + pizza);
