@@ -5,3 +5,20 @@ p {
   font-family: fantasy;
   font-size: 20px;
 }
+h1 {
+  text-align: center;
+  background-color: black;
+  width: 25%;
+  height: 100px;
+  color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-size: 70px;
+
+}
+.list-me {
+  float: left;
+  margin-left: 23%;
+  font-size: 25px;
+}
