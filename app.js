@@ -39,3 +39,6 @@ else {
   alert('Afraid of gaining weight?');
 }
 console.log('Do you like pizza? ' + pizza);
+
+var chosenNumber = 12;
+var guessCorrect = false;
