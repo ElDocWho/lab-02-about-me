@@ -70,7 +70,7 @@ for (var i = 4;(i > 0) && (notGuessed === true); i--) {
   } else if (parseInt(guessNum) < randomNumber) {
     alert('Number too low!');
   } else if (parseInt(guessNum) > randomNumber) {
-    alert('Number too hi!');
+    alert('Number too high!');
   }
 };
 if (notGuessed === true) {
@@ -96,4 +96,4 @@ for (var i = 6; (i > 0) && (stateNotGuessed === true); i--) {
 if (stateNotGuessed === true) {
   alert('Sorry you did not guess any of the states, \n the states I have lived in are: ' + states);
 }
-alert (name + ' You got ' + count + 'out of 9 right!');
+alert (name + ' You got ' + counter + ' out of 7 right!');
